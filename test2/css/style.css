@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background: black;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 50%;
+    flex-basis: 200px;
+}
+
+.circle1 {
+    background: linear-gradient(45deg, #FF791F 30%, #05F0FF)
+}
+
+.circle2 {
+    background: linear-gradient(#FFD53F 30%, #263BFF)
+}
